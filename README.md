@@ -52,12 +52,12 @@ The level difficulty drives the velocity of the falling piece. At a higher game 
 
 The game score is based on the number of lines that are cleared out. Whenever a line is cleared, a certain score value is added to the player's total score. The accumulated score value depends on the number of line that is cleared at the current level, according to the table shown below.
 
-Level        1 line        2 lines        3 lines        4 lines        4 or more lines
-----------------------------------------------------------------------------
- 0            40            100         300            1200        1200
- 1            80            200         600            2400        2400
- .             .             .            .            .            .
- .             .             .            .            .            .
- .             .             .            .            .            .
- n            40*(n+1)    100*(n+1)    300*(n+1)    1200*(n+1)    1200*(n+1)
+|Level   |1 line   | 2 lines |3 lines  |4 lines   | More than 4 lines |
+|-------:|--------:|--------:|--------:|---------:|------------------:|
+| 0      |    40   |     100 |    300  |   1200   |  1200             |
+| 1      |    80   |     200 |    600  |   2400   |  2400             |
+| .      |     .   |      .  |      .  |      .   |     .             |
+| .      |     .   |      .  |      .  |      .   |     .             |
+| .      |     .   |      .  |      .  |      .   |     .             |
+| n      |40*(n+1) |100*(n+1)|300*(n+1)|1200*(n+1)|1200*(n+1)         |
 
